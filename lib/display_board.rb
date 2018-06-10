@@ -21,6 +21,7 @@ def display_board
   puts horizon
   puts row_of_cells
   puts horizon
+  puts row_of_cells
 end
 
 #  prints cell
