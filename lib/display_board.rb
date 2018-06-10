@@ -10,22 +10,17 @@ def row_of_cells
   print cell
   print "|"
   print cell
-  puts "-----------"
 end
 
-def final_row_of_cells
-  cell = "   "
-  print cell
-  print "|"
-  print cell
-  print "|"
-  print cell
+def horizon
+  puts = "-----------"
 end
 
 def display_board
   puts row_of_cells
+  puts horizon
   puts row_of_cells
-  puts final_row_of_cells
+  puts horizon
 end
 
 #  prints cell
